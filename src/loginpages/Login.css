@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.arrowback_div{
+    position: relative;
+    top: 7rem;
+    left: 0rem;
+}
+
+.login_main{
+    margin-left: 5rem;
+    display: flex;
+}
+
+.leftangle{
+    margin-top: 15rem;  
+}
+
+/* Login-code */
+.center{
+    margin-top: 15rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 17rem;
+}
+
+.emailinput{
+    color: #ffffff;
+    font-family: "Outfits",sans-serif;
+    padding-bottom: 0.5em;
+}
+
+.emailinput input{
+    margin: 5px 0;
+    padding: 9px ;
+    width: 300px;
+    background-color: transparent;
+    border: #FFFFFF 1px solid;
+    border-radius: 12px;
+    color: #e7e7e7;
+    font-size: 1.1rem;
+}
+
+.passwordinput{
+    color: #ffffff;
+    font-family: "Outfits",sans-serif;
+    padding-bottom: 0.5em;
+    margin-top: 1.5em;
+}
+
+.passwordinput input{
+    margin: 5px 0;
+    padding: 9px ;
+    width: 300px;
+    background-color: transparent;
+    border: #FFFFFF 1px solid;
+    border-radius: 12px;
+    color: #e7e7e7;
+    font-size: 1.1rem;
+}
+
+.passwordalert {
+    padding: 0.3em;
+    color: red;
+    display: none;
+}
+
+#btn{
+    width: 300px;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 9px;
+}
+
+.already{
+    font-family: "Outfit",sans-serif;
+    font-weight: 100;
+    margin-top: 18px;
+   text-align: center;
+}
+
+.already p{
+    color: #FFFFFF;
+}
+
+.already p span{
+    color: #15AFFF;
+}
+
+/* last-half image */
+.lasthalf{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.lasthalf img{
+    position: absolute;
+    bottom: 0px;
+    right: 27rem;
+}
+
+/* right-half */
+.righthalf{
+    height: 20%;
+}
+
+.righthalf img{
+    position: absolute;
+    right: 0;
+    bottom: 26rem;
+}

@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #171923;
+    width: 100%;
+    height: 100%;
+}
+
+/* menu start here */
+.menu{
+    /* background-color: rgb(230, 193, 28); */
+    width: 85%;
+    height: 80px;
+    margin: 22px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    size: 1.4rem;
+    color: white;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 6px; 
+}
+
+.twobutton{
+   /* display: flex;
+   align-items: center; */
+   /* border: 1px solid red; */
+   height: 72px;
+    /* background-color: #0042DA; */
+    position: relative;    
+    top: -75px;
+}
+
+.twobutton #btn{
+    /* position: absolute; */
+    width: 70px;
+    background-color: transparent;
+    border-color: #7EA6FF ;
+    border-radius: 5px;
+    color: #7EA6FF;
+    padding: 7px 9px;
+    margin-right: 14px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+/* #btn2{
+    position: absolute;
+    padding: 7px 9px ;
+    background-color: #1A5FFF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+} */
+/* menu end here */
+
+/* ChatBot start here */
+.chatbot_main{
+    padding: 0%;
+    width: 100%;  
+    font-family: 'Outfit',sans-serif;
+}
+
+/* chatbot_top start here */
+.chatbot_main .chatbot_top{
+    display: flex;
+    flex-direction: row;
+    border-color: aliceblue 5px solid;
+}
+
+.chatbot_left{
+    display: flex;
+}
+
+.chatbot_center{
+    margin: 0 95px 0 29px;
+}
+
+.chatbot_center h1{
+    text-align: center;
+    display: inline-block;
+    background:linear-gradient(to right,#4B83FF 0%, #B794F4 50% ) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.8rem;
+    font-weight: 700;
+    padding-top: 60px ;
+}
+
+.chatbot_center p{
+    text-align: center;
+    color: #FFFFFFEB;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans',sans-serif;
+    padding-top: 24px;
+}
+
+#chatbot_center_btn{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    padding: 21px 32px ;
+    background-color: #1A5FFF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 25px 0 0 290px;
+    border-style: none;
+}
+/* chatbot_top end here */
+
+/* chatbot_down start here */
+.chatbot_down{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    margin-top: 80px;
+    margin-bottom: 260px;  
+}
+
+.chatbot_down img{
+    z-index: 1;
+    position: absolute;
+    top: 65;
+}
+
+.yellow_circle{
+    height: 600px;
+    width: 580px;
+    background-color: #E67200;
+    filter: blur(11px);
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.blue_circle{
+    height: 600px;
+    width: 550px;
+    background-color: #0042DA;
+    filter: blur(11px);
+    border-radius: 100%;
+}
+/* chatbot_down end here */
+/* ChatBot end here */
+
+/* school form start here */
+.schoolform{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 14px;
+    color: #FFFFFF;
+  
+}
+
+.schoolform h1{
+    font-family: "Outfit",sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.schoolform_down{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.schoolform p{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #A0AEC0;
+    margin-top: 20px;
+    word-spacing: 0.7px;
+    letter-spacing: 0.7px;
+    line-height: 1.8rem;
+}
+
+/* schoolform_down_left start here */
+.schoolform_down_left{
+    width: 45%;
+    border-radius: 6px;
+}
+
+.wronglogo_div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+/* schoolform start here */
+.schoolform_form{
+    border: #30323A 1px solid;
+    border-radius: 6px;
+    padding: 16px;
+    color: #FFFFFF;
+}
+
+.schoolform_form form{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    color: #e7e7e7;
+}
+
+.name{
+    padding: 7px 0;
+    font-size: 16px;
+}
+
+.name input{
+    margin: 5px 0;
+    padding: 12px ;
+    width: 560px;
+    background-color: transparent;
+    border: #30323A 1px solid;
+    border-radius: 6px;
+    color: #e7e7e7;
+}
+
+.email{
+    padding: 7px 0;
+}
+
+.email input{
+    margin: 5px 0;
+    padding: 12px ;
+    width: 560px;
+    background-color: transparent;
+    border: #30323A 1px solid;
+    border-radius: 6px;
+    color: #e7e7e7;
+}
+
+.schoolform_checkbox{
+    padding: 7px 0 ;
+}
+
+input[type=checkbox] + label::before{
+    display: block;
+    margin: 0.1em;
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+    display: none;
+    margin: 0.2em;
+}
+
+input[type=checkbox] + label::before{
+    content: "\2714";
+    margin-right: 6px;
+    border: 0.1em solid #30323A;
+    border-radius: 2px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-bottom: 0.1em;
+    padding-bottom: 0.2em;
+    padding-left: 0.1em;
+    vertical-align: bottom;
+    color: transparent;
+}
+input[type=checkbox] + label:active:before {
+    transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+    background-color: MediumSeaGreen;
+    border-color: MediumSeaGreen;
+    color: #e7e7e7;
+}
+
+.comment{
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+.comment textarea{
+    color: #e7e7e7;
+    margin: 5px 0;
+    padding: 8px ;
+    height: 124px;
+    width: 560px;
+    background-color: transparent;
+    border: #30323A 1px solid;
+    border-radius: 6px;    
+    resize: none;
+}
+
+/* schoolform_down_right start here */
+.schoolform_down_right{
+    width: 48%;
+    border-radius: 6px;
+    z-index: -1;
+}
+
+.rightlogo_div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.tryitout_logo{
+    position: absolute;
+    z-index: 1;
+    right: 200px;
+    top: -10px;
+}
+
+.zindex{
+    position: absolute;
+    z-index: 2;
+    right: 120px;
+    top: -20px;
+}
+/* school form end here */
+/* two image div start here */
+.twoimage_div_main{
+    padding-top: 12rem;
+    width: 100%;
+}
+
+/* two image div up start here */
+.twoimage_div_up{
+    width: 63%;
+    margin: 0 auto;
+    display: flex;
+    gap: 4rem;
+}
+
+.twoimage_div_up-right{
+    color: #FFFFFF;
+}
+
+.twoimage_div_up-right h1{
+    font-size: 40px;
+    font-family: "Outfit",sans-serif;
+    font-weight: 700;
+    margin-top: 36px;
+}
+
+.twoimage_div_up-right p{
+    color: #A0AEC0;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 29px;
+}
+
+/* two image div up-left start here */
+.twoimage_div_down{
+    display: flex;
+    color: #FFFFFF;
+    width: 63%;
+    margin: 9rem auto;
+    gap: 3rem;
+}
+
+/* twoimage_div_down-left start here*/
+.twoimage_div_down-left h1{
+    font-family: "Outft",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 86px;
+}
+
+.twoimage_div_down-left p{
+    color: #A0AEC0;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 29px;
+}
+/* two image div end here */
+
+/* logobundle start here */
+.logobundle{
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-bottom: 90px;
+}
+
+.logobundle_para{
+    padding-top: 50px;
+    padding-left: 120px;
+    color: #FFFFFF;
+}
+
+.logobundle_para h1{
+    font-family: "Outfit",sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 83px;
+}
+
+.logobundle_para p{
+    color: #A0AEC0;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* logobundle end here */
+
+/* realtime start here */
+.realtime{
+    width: 100%;
+    color: #FFFFFF;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.realtime_contain{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.realtime_contain h1{
+    font-family: "Outfit",sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 9rem;
+}
+
+.realtime_contain p{
+    font-family: "Opens sans",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #A0AEC0;
+}
+
+.realtime_contain span{
+    font-family: "Opens sans",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #A0AEC0;
+}
+
+/* realtime image start here */
+.realtime_image{
+    width: 35%;
+    margin: 0 auto;
+    border: 1px solid #30323A;
+    border-radius: 6px;
+    margin-top:93px ;
+}
+/* realtime end here */
+
+/* features start here */
+.features{
+    width: 100%;
+    margin-top: 12rem;
+}
+
+.features_contain{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features_contain h1{
+    color: #FFFFFF;
+    font-family: "Outfit",sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.features_contain p{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+    color: #718096;
+    margin-bottom: 6rem;
+}
+
+/* feature-box start here */
+.features_box{
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+} 
+
+.features_box h6{
+    padding-bottom: 10px ;
+}
+
+.features_box p{
+    color:#718096;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+/* features-top  */
+.features_top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* features-bottom */
+.features_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features_div{
+    background-color: #1A202C;
+    width: 360px;
+    height: 160px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.features_div img{
+    position: relative;
+    bottom: 28px;
+}
+
+.features_div_contain{
+    position: absolute;
+    right: 37px;
+    top: 39px;  
+}
+
+.features_box .features_titles{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.features_div_contain p{
+    margin-top: 10px;
+}
+/* features end here */
+
+/* brand-logo start from here */
+.brand_logo{
+    width: 100%;
+    margin-bottom: 170px;
+}
+
+.brand_logo_main{
+    margin: 20px auto;
+    width: 65%;
+}
+
+.brand_logo_main p{
+    font-family: "Outfit",sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+/* brand-logo end from here */
+
+/* last-div start here */
+.last_div{
+    background-color: #171F2A;
+    color: #FFFFFF;
+    padding-bottom: 18rem;
+}
+
+.last_div_main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.last_div_main_center{
+    margin-top: 22rem;
+    width: 60%;
+}
+
+.last_div_main_center h1{
+    font-family: "Outfit",sans-serif;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+
+.last_div_main_center p{
+    margin-top: 24px;
+    font-size: 16px;
+    color: #A0AEC0;
+    font-weight: 400;
+    font-family: "Open sans",sans-serif;
+}
+
+.last_div_main_right img{
+    position: relative;
+    top: 225px;
+}
+
+#last_div_id{
+    color: #A0AEC0;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Open sans",sans-serif;
+}
+
+#last_btn{
+    padding: 15px;
+    /* font-weight: 600; */
+    font-family: "Opens sans",sans-serif;
+    font-size: 16px;
+    border-radius: 6px;
+}
+/* last-div end here */
+
+/* footer start here */
+.footer{
+    background-color: #171923;
+    color: #FFFFFF;
+}
+
+.footer_main{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 90px 0px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+p span #made{
+    text-decoration: none;
+}
+
+.footer_main p{
+    line-height: 1.6em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* footer end here */
