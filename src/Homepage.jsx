@@ -1,6 +1,7 @@
 import React from "react";
 import "./Homepage.css";
 import HomeButton from "./component/HomeButton";
+import { Link } from "react-router-dom";
 // import { Navigate, useNavigate } from 'react-router-dom'
 
 function Homepage() {
@@ -14,9 +15,12 @@ function Homepage() {
           <img src="/SVG.png" alt="SVG.png" /> <p>FormBot</p>
         </div>
         <div className="twobutton">
-          <button id="btn">Sign in</button>
+          <Link to="/login">
+            {" "}
+            <button id="btn">Sign in</button>{" "}
+          </Link>
           {/* <button id='btn2'>Create a FormBot</button> */}
-          <HomeButton id />
+          <Link to="/login"><HomeButton id /></Link>
         </div>
       </div>
       {/* Menu end here */}
@@ -47,6 +51,7 @@ function Homepage() {
             <img src="/vectorright.png" alt="vectorright.png" />
           </div>
         </div>
+
         {/* chatbot_down start here */}
         <div className="chatbot_down">
           <div className="yellow_circle"></div>
@@ -147,7 +152,7 @@ function Homepage() {
                   ></textarea>{" "}
                   <br />
                 </div>
-                <button>Submit</button>
+                <Link to="/login"><button>Submit</button></Link>
               </form>
             </div>
           </div>
@@ -325,12 +330,6 @@ function Homepage() {
                 </div>
               </div>
             </div>
-
-            {/* features-center start from here */}
-            <div className="features_center"></div>
-
-            {/* features-right start from here */}
-            <div className="features_right"></div>
           </div>
         </div>
       </div>
@@ -356,7 +355,7 @@ function Homepage() {
               Improve conversion and user engagement <br />
               with FormBots{" "}
             </h1>
-            <button id="last_btn">Create a FormBot</button>
+            <Link to="/Login"><button id="last_btn">Create a FormBot</button></Link>
             <p>
               No trial. Generous <span id="last_div_id">free</span> plan.
             </p>

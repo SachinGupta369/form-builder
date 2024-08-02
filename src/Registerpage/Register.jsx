@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Register.css'
+import { Link } from 'react-router-dom';
 
 function Register() {
 
@@ -23,11 +24,11 @@ function Register() {
               
         <div className="login_main">
         <div className="arrowback_div">
-            <img src="/public/login/arrowback.png" alt="arrowback.png" />
+            <Link to="/Login"><img src="/./login/arrowback.png" alt="arrowback.png" /></Link> 
         </div>
         {/* left angle  */}
             <div className="leftangle">
-                <img src="/public/login/leftangle.png" alt="leftangle.png" />
+                <img src="/./login/leftangle.png" alt="leftangle.png" />
             </div>
             {/* center-form code */}
             <div className="center">
@@ -65,14 +66,14 @@ function Register() {
             </div>
         </div>
         {/* right-half code */}
-        <div className="righthalf">
-                <img src="/public/login/righthalf.png" alt="righthalf.png" />
+        {/* <div className="righthalf">
+                <img src="/./login/righthalf.png" alt="righthalf.png" />
             </div>
 
         <div className="lasthalf">
-            <img src="/public/login/lasthalf.png" alt="lasthalf.png" />
+            <img src="/./login/lasthalf.png" alt="lasthalf.png" />
         </div>
-    
+     */}
     </>
   )
 }
