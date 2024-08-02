@@ -66,14 +66,14 @@ function Register() {
             </div>
         </div>
         {/* right-half code */}
-        {/* <div className="righthalf">
+        <div className="righthalf">
                 <img src="/./login/righthalf.png" alt="righthalf.png" />
             </div>
 
         <div className="lasthalf">
             <img src="/./login/lasthalf.png" alt="lasthalf.png" />
         </div>
-     */}
+    
     </>
   )
 }

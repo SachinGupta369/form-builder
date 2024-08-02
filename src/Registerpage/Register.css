@@ -1,171 +1,170 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,body{
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
-.arrowback_div{
-    background-color: palevioletred;
-    height: 20px;
+.arrowback_div {
+  height: 20px;
 }
 
-.arrowback_div img{
-    background-color: transparent;
+.arrowback_div img {
+  background-color: transparent;
 }
 
-.login_main{
-    border: 1px solid rebeccapurple;
-    /* margin-left: 3rem; */
-    /* display: flex; */
-    height: 100%;
-    /* overflow: hidden; */
+.login_main {
+  /* margin-left: 3rem; */
+  /* display: flex; */
+  height: 100%;
+  /* overflow: hidden; */
 }
 
-.leftangle{
-    margin-top: 10rem;  
-    background-color: #15AFFF;
+.leftangle {
+  margin-top: 10rem;
+  /* background-color: #15AFFF; */
 }
 
-.leftangle img{
-    width: 80%;
+.leftangle img {
+  width: 80%;
 }
 
 /* Login-code */
-.center{
-    margin-top: 0rem;
-    width: 70%;
-    padding-left: 1rem;
-    padding-right: 2rem;
-    /* border: 1px solid red; */
-    /* background-color: gray; */
+.center {
+  margin-top: 0rem;
+  width: 70%;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  /* border: 1px solid red; */
+  /* background-color: gray; */
 }
 
-.center form label{
-    padding-bottom: 10px;
+.center form label {
+  padding-bottom: 10px;
 }
 
-.username{
-    color: #ffffff;
-    font-family: "Outfits",sans-serif;
-    padding-bottom: 0.5em;
+.username {
+  color: #ffffff;
+  font-family: "Outfits", sans-serif;
+  padding-bottom: 0.5em;
 }
 
-.username input{
-    margin: 5px 0;
-    padding: 9px ;
-    width: 300px;
-    background-color: transparent;
-    border: #FFFFFF 1px solid;
-    border-radius: 12px;
-    color: #e7e7e7;
-    font-size: 1.1rem;
+.username input {
+  margin: 5px 0;
+  padding: 9px;
+  width: 300px;
+  background-color: transparent;
+  border: #ffffff 1px solid;
+  border-radius: 12px;
+  color: #e7e7e7;
+  font-size: 1.1rem;
 }
 
-.emailinput{
-    color: #ffffff;
-    font-family: "Outfits",sans-serif;
-    /* background-color: #15AFFF; */
-    margin-bottom: -27px;
+.emailinput {
+  color: #ffffff;
+  font-family: "Outfits", sans-serif;
+  /* background-color: #15AFFF; */
+  margin-bottom: -27px;
 }
 
-.emailinput input{
-    margin-top: 5px;
-    padding: 0px ;
-    width: 300px;
-    background-color: transparent;
-    border: #FFFFFF 1px solid;
-    border-radius: 12px;
-    color: #e7e7e7;
-    font-size: 1.1rem;
-    /* background-color: #15AFFF; */
+.emailinput input {
+  margin-top: 5px;
+  padding: 0px;
+  width: 300px;
+  background-color: transparent;
+  border: #ffffff 1px solid;
+  border-radius: 12px;
+  color: #e7e7e7;
+  font-size: 1.1rem;
+  /* background-color: #15AFFF; */
 }
 
-.passwordinput{
-    color: #ffffff;
-    font-family: "Outfits",sans-serif;
-    padding-bottom: 0.5em;
+.passwordinput {
+  color: #ffffff;
+  font-family: "Outfits", sans-serif;
+  padding-bottom: 0.5em;
 }
 
-.passwordinput input{
-    margin: 0px 0;
-    padding: 9px ;
-    width: 300px;
-    background-color: transparent;
-    border: #FFFFFF 1px solid;
-    border-radius: 12px;
-    color: #e7e7e7;
-    font-size: 1.1rem;
+.passwordinput input {
+  margin: 0px 0;
+  padding: 9px;
+  width: 300px;
+  background-color: transparent;
+  border: #ffffff 1px solid;
+  border-radius: 12px;
+  color: #e7e7e7;
+  font-size: 1.1rem;
 }
 
-.confirmpassword{
-    color: #ffffff;
-    font-family: "Outfits",sans-serif;
-    padding-bottom: 0.5em;
+.confirmpassword {
+  color: #ffffff;
+  font-family: "Outfits", sans-serif;
+  padding-bottom: 0.5em;
 }
 
-.confirmpassword input{
-    margin: 0px 0;
-    margin-top: 4px;
-    padding: 9px ;
-    width: 300px;
-    background-color: transparent;
-    border: #FFFFFF 1px solid;
-    border-radius: 12px;
-    color: #e7e7e7;
-    font-size: 1.1rem;
+.confirmpassword input {
+  margin: 0px 0;
+  margin-top: 4px;
+  padding: 9px;
+  width: 300px;
+  background-color: transparent;
+  border: #ffffff 1px solid;
+  border-radius: 12px;
+  color: #e7e7e7;
+  font-size: 1.1rem;
 }
 
 .passwordalert {
-    padding: 0.3em;
-    color: red;
-    display: none;
+  padding: 0.3em;
+  color: red;
+  display: none;
 }
 
-#btn{
-    width: 300px;
-    border-radius: 12px;
-    /* padding: 12px; */
-    margin-left: 3rem;
+#btn {
+  width: 300px;
+  border-radius: 12px;
+  /* padding: 12px; */
+  margin-left: 3rem;
 }
 
-.already{
-    font-family: "Outfit",sans-serif;
-    font-weight: 100;
-    margin-top: 18px;
-   text-align: center;
+.already {
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+  margin-top: 18px;
+  text-align: center;
 }
 
-.already p{
-    color: #FFFFFF;
+.already p {
+  color: #ffffff;
 }
 
-.already p span{
-    color: #15AFFF;
-    font-weight: 400;
+.already p span {
+  color: #15afff;
+  font-weight: 400;
 }
 
 /* last-half image */
-.lasthalf{
-    width: 20%;
-    margin: 0 auto;
+.lasthalf {
+  width: 20%;
+  margin: 0 auto;
 }
 
-.lasthalf img{
-    position: absolute;
-    bottom: 0px;
-    right: 27rem;
+.lasthalf img {
+  position: absolute;
+  bottom: 0px;
+  right: 27rem;
 }
 
 /* right-half */
 
-.righthalf img{
-    /* position: relative; */
-    /* right: 0; */
-    /* bottom: 20rem; */
-    /* overflow: hidden; */
+.righthalf img {
+  /* position: relative; */
+  /* right: 0; */
+  /* bottom: 20rem; */
+  /* overflow: hidden; */
 }

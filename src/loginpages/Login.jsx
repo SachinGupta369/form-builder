@@ -33,7 +33,7 @@ function Login() {
               <p>
                 Already have an account ?{" "}
                 <Link to="/Register">
-                  <span>Register now</span>
+                  <span id="register">Register now</span>
                 </Link>
               </p>{" "}
             </div>
